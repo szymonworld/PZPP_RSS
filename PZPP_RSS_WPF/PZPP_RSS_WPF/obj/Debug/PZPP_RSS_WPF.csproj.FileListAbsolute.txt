@@ -1,0 +1,17 @@
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\bin\Debug\PZPP_RSS_WPF.exe.config
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\bin\Debug\PZPP_RSS_WPF.exe
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\bin\Debug\PZPP_RSS_WPF.pdb
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\obj\Debug\MainWindow.g.cs
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\obj\Debug\App.g.cs
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\obj\Debug\PZPP_RSS_WPF_MarkupCompile.cache
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\obj\Debug\PZPP_RSS_WPF_MarkupCompile.lref
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\obj\Debug\MainWindow.baml
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\obj\Debug\PZPP_RSS_WPF.g.resources
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\obj\Debug\PZPP_RSS_WPF.Properties.Resources.resources
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\obj\Debug\PZPP_RSS_WPF.csproj.GenerateResource.Cache
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\obj\Debug\PZPP_RSS_WPF.exe
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\obj\Debug\PZPP_RSS_WPF.pdb
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\bin\Debug\HtmlAgilityPack.dll
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\bin\Debug\HtmlAgilityPack.pdb
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\bin\Debug\HtmlAgilityPack.xml
+I:\Programowanie Projekty\PZPP_RSS_WPF\PZPP_RSS_WPF\obj\Debug\PZPP_RSS_WPF.csprojResolveAssemblyReference.cache

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -47,10 +48,19 @@ namespace PZPP_RSS_WPF
             {
                 foreach (var item2 in item.Descendants("a").Where(x => x.Name == "a" && x.Attributes["rel"] != null && x.Attributes["rel"].Value.Contains("nofollow")).ToList().Select(x => x.Attributes["href"].Value).ToList())
                 {
-                    links.Add(new RSSLinks { Link = item2 });
+                    try
+                    {
+                        XmlDocument rssXmlDoc = new XmlDocument();
+                        rssXmlDoc.Load(item2);
+                        XmlNodeList rssNodes = rssXmlDoc.SelectNodes("rss/channel/item");
+                        links.Add(new RSSLinks { Link = item2 });
+                    }
+                    catch (Exception)
+                    {
+
+                    }
                 }
             }
-            //DisplayRSSList(links);
             AddToListView(links);
         }
         private void DisplayRSSList(List<RSSLinks> links)
@@ -99,7 +109,9 @@ namespace PZPP_RSS_WPF
                     _rssChannels.Add(new RSSChannels { Title = title, Description = description, Link = link });
                     rssContent.Append(Environment.NewLine + "Tytuł: " + title + Environment.NewLine + "Opis: " + description + Environment.NewLine + "Źródło: " + link);
                 }
-                textBox.Text = rssContent.ToString();
+
+                textBox.Text = Regex.Replace(rssContent.ToString(), @"<[^>]*>|&#[^>]*;", String.Empty);
+
             }
             catch (Exception)
             {

@@ -1,0 +1,15 @@
+C:\Users\Student\Desktop\PROJEKT_PZPP\Models\bin\Debug\Models.dll
+C:\Users\Student\Desktop\PROJEKT_PZPP\Models\bin\Debug\Models.pdb
+C:\Users\Student\Desktop\PROJEKT_PZPP\Models\obj\Debug\PROJEKT_PZPP.Models.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\PROJEKT_PZPP\Models\obj\Debug\Models.dll
+C:\Users\Student\Desktop\PROJEKT_PZPP\Models\obj\Debug\Models.pdb
+C:\Users\ravan\Desktop\PROJEKT_PZPP\Models\bin\Debug\PROJEKT_PZPP.Models.dll.config
+C:\Users\ravan\Desktop\PROJEKT_PZPP\Models\bin\Debug\PROJEKT_PZPP.Models.dll
+C:\Users\ravan\Desktop\PROJEKT_PZPP\Models\bin\Debug\PROJEKT_PZPP.Models.pdb
+C:\Users\ravan\Desktop\PROJEKT_PZPP\Models\bin\Debug\EntityFramework.dll
+C:\Users\ravan\Desktop\PROJEKT_PZPP\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ravan\Desktop\PROJEKT_PZPP\Models\bin\Debug\EntityFramework.xml
+C:\Users\ravan\Desktop\PROJEKT_PZPP\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ravan\Desktop\PROJEKT_PZPP\Models\obj\Debug\PROJEKT_PZPP.Models.dll
+C:\Users\ravan\Desktop\PROJEKT_PZPP\Models\obj\Debug\PROJEKT_PZPP.Models.pdb
+C:\Users\ravan\Desktop\PROJEKT_PZPP\Models\obj\Debug\PROJEKT_PZPP.Models.csprojResolveAssemblyReference.cache

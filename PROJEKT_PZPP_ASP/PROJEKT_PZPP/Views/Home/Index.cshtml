@@ -1,0 +1,25 @@
+﻿@model List<PROJEKT_PZPP.Models.Channel>
+@{
+    ViewBag.Title = "RSS Channels";
+}
+
+<div class="container">
+    <div id="channels">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="color:white;"><strong>Kanały RSS </strong><img src="~/Images/RSS-icon.png" style="width:5%;height:5%;" /></h1>
+            </div>
+        </div>
+
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <div class="col-sm-3 col-md-3">
+                <div class="tile red" onclick="loadFeed(@Model[i].Id)">
+                    <h4 class="title">@Model[i].Title</h4>
+                    <p>@Model[i].Description.Substring(0, Math.Min(Model[i].Description.Length, 150))</p>
+                </div>
+            </div>
+        }
+    </div>
+    <div id="items"></div>
+</div>
